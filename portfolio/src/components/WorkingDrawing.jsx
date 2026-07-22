@@ -1,4 +1,4 @@
-import DrawingCard from "./DrawingCard";
+import Drawingcard from "./Drawingcard";
 import drawing1 from "../assets/images/drawing1.jpg";
 import drawing2 from "../assets/images/drawing2.jpg";
 
