@@ -26,7 +26,7 @@ function Drawing() {
 
       <div className="drawing-grid">
         {drawings.map((drawing) => (
-          <DrawingCard
+          <Drawingcard
             key={drawing.id}
             title={drawing.title}
             description={drawing.description}
