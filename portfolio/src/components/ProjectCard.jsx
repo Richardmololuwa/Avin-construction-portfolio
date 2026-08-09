@@ -1,25 +1,33 @@
+import { Link } from "react-router-dom";
+
 function ProjectCard({
   title,
   description,
   tech,
   image,
-  link,
+  slug,
 }) {
   return (
     <div className="project-card">
-      <img src={image} alt={title} />
+
+      <div className="project-image">
+        <img src={image} alt={title} />
+      </div>
 
       <div className="project-content">
+
         <h3>{title}</h3>
 
         <p>{description}</p>
 
         <span>{tech}</span>
 
-        <a href={link} target="_blank" rel="noreferrer">
+        <Link to={`/projects/${slug}`}>
           <button>View Project</button>
-        </a>
+        </Link>
+
       </div>
+
     </div>
   );
 }

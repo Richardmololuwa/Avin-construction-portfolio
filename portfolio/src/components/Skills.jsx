@@ -1,8 +1,8 @@
 const skills = [
-  "Architectural Design",
-  "Space Planning",
-  "3D Modeling",
-  "Rendering and visualization"
+  "BUILDING",
+  "PROJECT HOME",
+  "CUSTOM HOMES",
+  "EXTENSIONS"
 ];
 
 
@@ -10,7 +10,7 @@ const skills = [
 function Skills() {
   return (
     <section id="skills" className="skills">
-      <h2>My Skills</h2>
+      <h2>OUR SERVICE</h2>
 
       <div className="skills-grid">
         {skills.map((skill) => (

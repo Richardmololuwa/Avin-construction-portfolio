@@ -10,13 +10,7 @@ const drawings = [
     tech: "Residential",
     image: drawing1,
   },
-  {
-    id: 2,
-    title: "Working Drawing 2",
-    description: "Residential design of a 3-bedroom flat (2 units)",
-    tech: "Residential",
-    image: drawing2,
-  },
+  
 ];
 
 function Drawing() {

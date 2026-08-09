@@ -13,26 +13,13 @@ function Contact() {
         </p>
 
         <div className="contact-info">
-          <p>📧 Jheriyxcrypt@gmail.com</p>
-          <p>📞 +234  814 0004 768 /  09035161881</p>
-          <p>📍 Lagos, Nigeria</p>
+          <p>📧 avinconstructionlimited@gmail.com</p>
+          <p>📞 +2347038505716</p>
+          <p>📍 No.4, Suite 3, Eunice tutorial close, off Lanre Awolakun street, Gbagada Phase 2 Estate, Lagos, Nigeria.</p>
         </div>
       </div>
 
-      <div className="contact-right">
-        <form>
-          <input type="text" placeholder="Your Name" />
-
-          <input type="email" placeholder="Email Address" />
-
-          <textarea
-            rows="6"
-            placeholder="Tell us about your project..."
-          ></textarea>
-
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
+      
     </section>
   );
 }

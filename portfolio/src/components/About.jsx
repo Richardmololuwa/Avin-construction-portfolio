@@ -1,15 +1,20 @@
 function About() {
   return (
     <section id="about" className="about">
-      <h2>About Me</h2>
+      <h2>OUR VISION</h2>
 
       <p>
-        I Adewale Jeremiah, I am an aspiring architect with a passion for creating functional, 
-        sustainable, and visually compelling spaces. I enjoy transforming ideas into thoughtful 
-        designs through creativity, technical precision, and attention to detail. My work reflects
-         a commitment to solving real-world challenges while delivering architecture that enhances the way 
-         people live, work, and interact. This portfolio showcases selected projects that highlight my design approach, 
-         technical skills, and continuous growth as an architect.
+        Our vision at Avin Construction limited is to be a leading Architectural and consultancy firm that is internationally synonymous to aesthetically pleasing building while also being environmentally sustainable
+
+      </p>
+
+      <h2>OUR MISSION</h2>
+
+      <p>
+        Our mission is to design place that satisfies it's uses and also enhance the quality of life and well being of our client.
+        We build, renovate,
+        supervise and
+        construct for user comfortability
       </p>
     </section>
   );
