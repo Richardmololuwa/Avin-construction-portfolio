@@ -1,6 +1,6 @@
 import kitchen1 from "../assets/images/interior/kitchen-1.jpg";
-import interiorVideo1 from "../assets/videos/interior/interior-1.mp4";
-import interiorVideo2 from "../assets/videos/interior/interior-2.mp4";
+import interiorVideo1 from "../assets/videos/interior/Interior-1.mp4";
+import interiorVideo2 from "../assets/videos/interior/Interior-2.mp4";
 
 const interiorProjects = [
   {
