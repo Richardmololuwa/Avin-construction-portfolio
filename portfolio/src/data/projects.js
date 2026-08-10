@@ -29,6 +29,7 @@ import Project5D from "../assets/images/Project5D.jpg"
 import Project5E from "../assets/images/Project5E.jpg"
 import Project5F from "../assets/images/Project5F.jpg"
 import Project6V from "../assets/videos/Project6V.mp4"
+import Project6A from "../assets/images/Project6A.jpg"
 
 const projects = [
   {
@@ -197,7 +198,7 @@ const projects = [
         "The project involves the renovation and modernization of an existing military quarters block, aimed at improving functionality, comfort, safety, and overall living conditions while preserving the building’s structural integrity and institutional character.",
       tech: "Institutional (military)",
 
-      coverImage: Project5A,
+      coverImage: Project6A,
 
       video: Project6V,
 

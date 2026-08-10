@@ -1,11 +1,11 @@
-import heroImage from "../assets/images/hero.jpg";
+import heroImage1 from "../assets/images/heroimage1.jpg";
 
 function Hero() {
   return (
     <section
       className="hero"
       style={{
-        backgroundImage: `url(${heroImage})`,
+        backgroundImage: `url(${heroImage1})`,
       }}
     >
       <div className="overlay">
@@ -25,7 +25,7 @@ function Hero() {
           with elegance, innovation and precision.
         </p>
 
-        <button>View Portfolio</button>
+        
 
       </div>
     </section>

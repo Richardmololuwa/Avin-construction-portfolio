@@ -9,7 +9,8 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="logo">AVIN CONSTRUCTION LIMITED</div>
+      <div className="logo">AVIN CONSTRUCTION LIMITED <div className="logo-no">Rc No: 8526959</div></div>
+      
 
       {/* Hamburger Button */}
       <button

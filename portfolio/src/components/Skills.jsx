@@ -2,7 +2,11 @@ const skills = [
   "BUILDING",
   "PROJECT HOME",
   "CUSTOM HOMES",
-  "EXTENSIONS"
+  "EXTENSIONS",
+  "INTERIOR DESIGN",
+  "CONSTRUCTION",
+  "RENOVATION"
+
 ];
 
 

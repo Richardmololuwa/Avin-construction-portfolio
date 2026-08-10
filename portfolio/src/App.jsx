@@ -18,8 +18,8 @@ import Subscription from "./components/Subscription";
 import Footer from "./components/Footer";
 import ArchitecturalDrawings from "./components/ArchitecturalDrawings";
 import ProjectDetails from "./pages/ProjectDetails";
-
-
+import InteriorDesign from "./components/InteriorDesign";
+import InteriorDesignDetails from "./pages/InteriorDesignDetails";
 function Home() {
   return (
     <>
@@ -36,6 +36,8 @@ function Home() {
       <Projects />
 
       <ArchitecturalDrawings />
+
+      <InteriorDesign />
 
       <Contact />
 
@@ -66,6 +68,13 @@ function App() {
           path="/projects/:slug"
           element={<ProjectDetails />}
         />
+
+        <Route
+          path="/interior-design/:slug"
+          element={<InteriorDesignDetails />}
+        />
+
+        
 
       </Routes>
 

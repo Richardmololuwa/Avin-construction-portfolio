@@ -4,7 +4,7 @@ function About() {
       <h2>OUR VISION</h2>
 
       <p>
-        Our vision at Avin Construction limited is to be a leading Architectural and consultancy firm that is internationally synonymous to aesthetically pleasing building while also being environmentally sustainable
+        Our vision at Avin Construction limited is to be a leading Architectural and consultancy firm that is internationally synonymous to aesthetically pleasing building while also being environmentally sustainable.
 
       </p>
 
@@ -14,7 +14,7 @@ function About() {
         Our mission is to design place that satisfies it's uses and also enhance the quality of life and well being of our client.
         We build, renovate,
         supervise and
-        construct for user comfortability
+        construct for user comfortability.
       </p>
     </section>
   );
