@@ -11,12 +11,17 @@ import Pimage6 from "../assets/images/Pimage6.jpg"
 import Pimage5 from "../assets/images/Pimage5.jpg"
 import Pimage7 from "../assets/images/Pimage7.jpg"
 import Pimage8 from "../assets/images/Pimage8.jpg"
-
+import Pimagefix from "../assets/images/Pimagefix.jpg"
+import Pimagefix1 from "../assets/images/Pimagefix1.jpg"
+import PimageHead from "../assets/images/PimageHead.jpg"
 import Project3D from "../assets/images/Project3D.jpeg"
 import Project3A from "../assets/images/Project3A.jpeg"
 import Project3C from "../assets/images/Project3C.jpeg"
 import Project3E from "../assets/images/Project3E.jpeg"
 import Project3F from "../assets/images/Project3F.jpeg"
+import Project3G from "../assets/images/Project3G.jpg"
+import Project3H from "../assets/images/Project3H.jpg"
+import Project3I from "../assets/images/Project3I.jpg"
 import Project4A from "../assets/images/Project4A.jpeg"
 import Project4B from "../assets/images/Project4B.jpeg"
 import Project4C from "../assets/images/Project4C.jpeg"
@@ -79,16 +84,16 @@ const projects = [
 
     status: "Completed",
 
-    coverImage: Pimage13,
+    coverImage: PimageHead,
 
     concept:
       "The design is inspired by modern simplicity and strong visual identity, using clean lines, balanced forms, and carefully selected materials to create a secure yet welcoming entrance. The gate house serves as both a functional security point and a defining feature of the estate.",
 
     images: [
       Pimage12,
-      Pimage6,
+      Pimagefix1,
       Pimage5,
-      Pimage7,
+      Pimagefix,
       Pimage8,
 
     ],
@@ -119,9 +124,10 @@ const projects = [
     images: [
       Project3D,
       Project3A,
-      Project3C,
-      Project3E,
       Project3F,
+      Project3G,
+      Project3H,
+      Project3I,
     ],
   },
 

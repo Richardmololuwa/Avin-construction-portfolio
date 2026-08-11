@@ -5,7 +5,8 @@ const skills = [
   "EXTENSIONS",
   "INTERIOR DESIGN",
   "CONSTRUCTION",
-  "RENOVATION"
+  "RENOVATION",
+  "PROJECT SUPERVISION"
 
 ];
 

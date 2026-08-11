@@ -11,11 +11,11 @@ function Hero() {
       <div className="overlay">
 
         <span className="hero-subtitle">
-          ARCHITECTURE • INTERIOR • DESIGN
+          ARCHITECTURE • CONSTRUCTION • DESIGN
         </span>
 
         <h1>
-          Designing Spaces
+          Designing and Building Spaces
           <br />
           That Inspire.
         </h1>
