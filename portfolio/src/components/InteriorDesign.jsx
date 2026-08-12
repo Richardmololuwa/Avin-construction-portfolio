@@ -2,8 +2,6 @@ import { Link } from "react-router-dom";
 import interiorProjects from "../data/interiorProjects";
 
 function InteriorDesign() {
-  const project = interiorProjects[0];
-
   return (
     <section
       className="interior-design"
@@ -28,50 +26,63 @@ function InteriorDesign() {
       </div>
 
 
-      <div className="interior-feature">
+      <div className="interior-projects-grid">
 
-        <div className="interior-feature-image">
+        {interiorProjects.map((project) => (
 
-          <img
-            src={project.coverImage}
-            alt={project.title}
-          />
+          <div
+            className="interior-feature"
+            key={project.id}
+          >
 
-        </div>
+            <div className="interior-feature-image">
 
+              <img
+                src={project.coverImage}
+                alt={project.title}
+              />
 
-        <div className="interior-feature-content">
-
-          <span className="interior-category">
-            {project.category}
-          </span>
-
-          <h3>{project.title}</h3>
-
-          <p>{project.description}</p>
-
-          <div className="interior-meta">
-
-            <div>
-              <small>Location</small>
-              <strong>{project.location}</strong>
             </div>
 
-            <div>
-              <small>Year</small>
-              <strong>{project.year}</strong>
+
+            <div className="interior-feature-content">
+
+              <span className="interior-category">
+                {project.category}
+              </span>
+
+              <h3>{project.title}</h3>
+
+              <p>{project.description}</p>
+
+
+              <div className="interior-meta">
+
+                <div>
+                  <small>Location</small>
+                  <strong>{project.location}</strong>
+                </div>
+
+                <div>
+                  <small>Year</small>
+                  <strong>{project.year}</strong>
+                </div>
+
+              </div>
+
+
+              <Link
+                to={`/interior-design/${project.slug}`}
+                className="interior-view-button"
+              >
+                View Interior Project →
+              </Link>
+
             </div>
 
           </div>
 
-          <Link
-            to={`/interior-design/${project.slug}`}
-            className="interior-view-button"
-          >
-            View Interior Project →
-          </Link>
-
-        </div>
+        ))}
 
       </div>
 

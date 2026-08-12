@@ -1,6 +1,11 @@
 import kitchen1 from "../assets/images/interior/kitchen-1.jpg";
 import interiorVideo1 from "../assets/videos/interior/Interior-1.mp4";
 import interiorVideo2 from "../assets/videos/interior/Interior-2.mp4";
+import interiorimages3 from "../assets/images/interior/Intproject1.jpg"
+import interiorimages4 from "../assets/images/interior/Intproject1b.jpg"
+import interiorimages5 from "../assets/images/interior/Intproject1c.jpg"
+import interiorvideo6 from "../assets/videos/interior/Intproject1d.MP4"
+
 
 const interiorProjects = [
   {
@@ -31,6 +36,30 @@ const interiorProjects = [
       interiorVideo2
     ],
   },
+
+
+  {
+    id: 2,
+    slug: "modern-residential-design",
+    title: "Modern Residential Design",
+    description:
+      "A contemporary residential design featuring clean architectural lines, modern lighting and carefully considered exterior detailing.",
+    category: "Residential Design",
+    location: "Lagos, Nigeria",
+    year: "2026",
+    status: "Completed",
+    coverImage: interiorimages3,
+    images: [
+      interiorimages4,
+      interiorimages5,
+    ],
+    videos: [
+      interiorvideo6
+    ],
+  },
+
 ];
+
+
 
 export default interiorProjects;
