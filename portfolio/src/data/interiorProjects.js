@@ -40,10 +40,10 @@ const interiorProjects = [
 
   {
     id: 2,
-    slug: "modern-residential-design",
-    title: "Modern Residential Design",
+    slug: "modern-toilet interior renovation",
+    title: "Modern Toilet Interior Renovation",
     description:
-      "A contemporary residential design featuring clean architectural lines, modern lighting and carefully considered exterior detailing.",
+      "A contemporary toilet interior renovation featuring clean architectural lines, modern lighting and carefully considered exterior detailing.",
     category: "Residential Design",
     location: "Lagos, Nigeria",
     year: "2026",
